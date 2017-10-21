@@ -95,7 +95,13 @@ a {
         background-color: rgba(255, 255, 255, 0.3); }
         #mainNav .nav-link.active:hover {
           color: white; } }
+.profile-photo {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
 
+
+}
 .masthead {
   display: table;
   width: 100%;
@@ -196,8 +202,8 @@ a {
 }
 
 .square {
-    height: 75px;
-    width: 75px;
+    height: 120px;
+    width: 120px;
 }
 ul.banner-social-buttons {
   margin-top: 0; }
