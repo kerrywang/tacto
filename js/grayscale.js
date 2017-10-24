@@ -15,6 +15,12 @@
     }
   });
 
+  $('.nav-link').mouseover(function() {
+    $(this).addClass('animated').addClass('tada');
+    $(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {$(this).removeClass('animated tada')});
+
+  })
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
